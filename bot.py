@@ -48,6 +48,7 @@ dp = Dispatcher()
 #     "scores": {"A": int, "B": int, "C": int, "D": int},
 # }
 user_states: dict[int, dict] = {}
+WELCOME_IMAGE_PATH = "assets/welcome.jpg"
 
 # ---------------------------------------------------------------------------
 # Данные теста: 20 вопросов, каждый с категорией и 4 вариантами ответов
